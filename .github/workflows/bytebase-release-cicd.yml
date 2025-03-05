@@ -55,4 +55,4 @@ jobs:
           token: ${{ steps.login.outputs.token }}
           plan: ${{ steps.create_plan.outputs.plan }}
           # set target-stage to exit after the stage completes
-          # target-stage: 'Test Stage'
+          # target-stage: 'test'
